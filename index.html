@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <script>
+        var student = {
+            name: "krisha",
+            age: "17",
+            favcolor: "Blue",
+            hobbies: "reading, music, Art",
+        };
+        var vehicles = ["Car", "Bus", "Scooter", "Auto"];
+        document.write("Student Name: " + student.name, "<br>",
+            "Student age: " + student.age, "<br>", "Student favourite color: " + student.favcolor);
+        document.write("<br>");
+        document.write("The vehicles i travel in are: " + vehicles.join(" * "));
+        document.write("<br>");
+        document.write("the one which i can ride is: " + vehicles[2]);
+        document.write("<br>");
+        vehicles.pop();
+        document.write("The vehicles which are my favorite are: " + vehicles.join(" * "));
+    </script>
+</body>
+
+</html>
